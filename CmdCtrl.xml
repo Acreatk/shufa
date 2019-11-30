@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GRAMMAR LANGID="804">
+  <DEFINE>
+    <ID NAME="VID_SubName1" VAL="4001"/>
+    <ID NAME="VID_SubName2" VAL="4002"/>
+    <ID NAME="VID_SubName3" VAL="4003"/>
+    <ID NAME="VID_SubName4" VAL="4004"/>
+    <ID NAME="VID_SubName5" VAL="4005"/>
+    <ID NAME="VID_SubName6" VAL="4006"/>
+    <ID NAME="VID_SubName7" VAL="4007"/>
+    <ID NAME="VID_SubName8" VAL="4008"/>
+    <ID NAME="VID_SubName9" VAL="4009"/>
+    <ID NAME="VID_SubName10" VAL="4010"/>
+    <ID NAME="VID_SubName11" VAL="4011"/>
+    <ID NAME="VID_SubName12" VAL="4012"/>
+    <ID NAME="VID_SubName13" VAL="4013"/>
+    <ID NAME="VID_SubName14" VAL="4014"/>
+    <ID NAME="VID_SubName14" VAL="4015"/>
+    <ID NAME="VID_SubNameRule" VAL="3001"/>
+    <ID NAME="VID_TopLevelRule" VAL="3000"/>
+  </DEFINE>
+  <RULE ID="VID_TopLevelRule" TOPLEVEL="ACTIVE">
+    <O>
+      <L>
+        <P>我要</P>
+        <P>运行</P>
+        <P>执行</P>
+      </L>
+    </O>
+    <RULEREF REFID="VID_SubNameRule" />
+  </RULE>
+  <RULE ID="VID_SubNameRule" >
+    <L PROPID="VID_SubNameRule">
+      <P VAL="VID_SubName1">前进</P>
+      <P VAL="VID_SubName2">后退</P>
+      <P VAL="VID_SubName3">左转</P>
+      <P VAL="VID_SubName4">右转</P>
+      <P VAL="VID_SubName5">停止</P>
+      <P VAL="VID_SubName6">前</P>
+      <P VAL="VID_SubName7">后</P>
+      <P VAL="VID_SubName8">左</P>
+      <P VAL="VID_SubName9">右</P>
+      <P VAL="VID_SubName10">快速前进</P>
+      <P VAL="VID_SubName11">中速前进</P>
+      <P VAL="VID_SubName12">慢速前进</P>
+      <P VAL="VID_SubName13">停止</P>
+      <P VAL="VID_SubName14">待定</P>
+      <P VAL="VID_SubName15">语音控制</P>
+    </L>
+  </RULE>
+</GRAMMAR>
